@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-$file=fopen("test.txt","r");
+$file=fopen("test.txt","r");//example
 echo fgetc($file);
         ?>
     </body>
